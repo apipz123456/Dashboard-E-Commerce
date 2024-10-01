@@ -1,5 +1,10 @@
-# Dashboard-E-Commerce
+# Demo Dashboard-E-Commerce
 E Commerce Dashboard 
+
+
+https://github.com/user-attachments/assets/4f3e8057-11ba-4fe2-af4d-017f1c1638b1
+
+
 ### How to run it on your own machine
 
 1. Install the requirements

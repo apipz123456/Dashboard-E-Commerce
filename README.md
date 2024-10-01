@@ -2,8 +2,7 @@
 E Commerce Dashboard 
 
 
-https://github.com/user-attachments/assets/4f3e8057-11ba-4fe2-af4d-017f1c1638b1
-
+https://github.com/user-attachments/assets/118e88bc-66c1-453a-8b69-34b29d972dc5
 
 ### How to run it on your own machine
 

@@ -14,8 +14,8 @@ dashboard_selection = st.sidebar.selectbox("Choose a dashboard section:",
                                            ["Top Products", "Monthly Orders", "Geographical Analysis"])
 
 # Load datasets
-combined_dat = pd.read_csv('datasets\combined_dat.csv')
-customers_df = pd.read_csv('datasets\customers_geo.csv')
+combined_dat = pd.read_csv('datasets/combined_dat.csv')
+customers_df = pd.read_csv('datasets/customers_geo.csv')
 
 # Section 1: Top Products Analysis
 if dashboard_selection == "Top Products":
@@ -87,6 +87,6 @@ elif dashboard_selection == "Geographical Analysis":
 
 
     # Display geographical distribution map
-    st.subheader("Geographical Customer Distribution")
+    st.subheader("Maps Geographical Customer Distribution")
     customers_df.rename(columns={'geolocation_lat': 'lat', 'geolocation_lng': 'lon'}, inplace=True)
     st.map(customers_df[['lat', 'lon']].dropna())

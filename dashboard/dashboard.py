@@ -87,6 +87,6 @@ elif dashboard_selection == "Geographical Analysis":
 
 
     # Display geographical distribution map
-    st.subheader("Geographical Customer Distribution")
+    st.subheader("Maps Geographical Customer Distribution")
     customers_df.rename(columns={'geolocation_lat': 'lat', 'geolocation_lng': 'lon'}, inplace=True)
     st.map(customers_df[['lat', 'lon']].dropna())

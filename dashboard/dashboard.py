@@ -14,8 +14,8 @@ dashboard_selection = st.sidebar.selectbox("Choose a dashboard section:",
                                            ["Top Products", "Monthly Orders", "Geographical Analysis"])
 
 # Load datasets
-combined_dat = pd.read_csv('datasets\combined_dat.csv')
-customers_df = pd.read_csv('datasets\customers_geo.csv')
+combined_dat = pd.read_csv('datasets/combined_dat.csv')
+customers_df = pd.read_csv('datasets/customers_geo.csv')
 
 # Section 1: Top Products Analysis
 if dashboard_selection == "Top Products":

@@ -15,5 +15,5 @@ https://github.com/user-attachments/assets/118e88bc-66c1-453a-8b69-34b29d972dc5
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run dashboard/dashboard.py
    ```
